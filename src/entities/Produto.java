@@ -3,13 +3,13 @@ package entities;
 public class Produto {
 	
 	private String nome;
-	private double valorUnitario;
+	private Double valorUnitario;
 	
 	public Produto() {
 		
 	}
 	
-	public Produto(String nome, double valorUnitario) {
+	public Produto(String nome, Double valorUnitario) {
 		this.nome = nome;
 		this.valorUnitario = valorUnitario;
 	}
@@ -22,11 +22,11 @@ public class Produto {
 		this.nome = nome;
 	}
 
-	public double getValorUnitario() {
+	public Double getValorUnitario() {
 		return valorUnitario;
 	}
 
-	public void setValorUnitario(double valorUnitario) {
+	public void setValorUnitario(Double valorUnitario) {
 		this.valorUnitario = valorUnitario;
 	}
 }
